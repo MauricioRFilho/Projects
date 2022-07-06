@@ -1,0 +1,76 @@
+ul {
+    list-style: none;
+}
+ul#nav-vertical {
+    margin-top: 0px;
+    list-style: none;
+    clear: both;
+
+}
+
+ul#nav-vertical li {
+    margin: 5px 0;
+    height: 40px;
+    padding: 0;
+}
+
+ul#nav-vertical li a {
+    text-decoration: none;
+    text-indent: 30px;
+    background: #f7b600 url(./img/menu.png) no-repeat left center;
+    max-width: 200px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul#nav-vertical li:hover a {
+    max-width: 200px;
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#services #nav-vertical .services a,
+#home #nav-vertical .home a {
+    max-width: 200px;
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+/* ------------------------- NAV HORIZONTAL  */
+
+
+ul#nav-horizontal {
+    margin-bottom: 20px;
+    padding: 0;
+    width: 720px;
+    background: #159cb0 url(./img/fundo-horizontal.png) repeat-x;
+    float: left;
+    clear: both;
+
+}
+
+ul#nav-horizontal li {
+    float: left;
+}
+
+ul#nav-horizontal li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 3em;
+    line-height: 2.5em;
+    color: #fff;
+    background: url(./img/divisor.png) repeat-y left top;
+}
+
+ul#nav-horizontal li a.primeiro {
+    background: none;
+}
+
+ul#nav-horizontal li a:hover {
+    color: #085662;
+    background: #44cade;
+}
